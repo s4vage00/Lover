@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Carta para Catelynn Dianey</title>
+    <style>
+        body {
+            background-color: #fff0f6;
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: #ffe6ef;
+            border: 3px solid #ff99c8;
+            border-radius: 20px;
+            padding: 20px;
+            max-width: 600px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(255, 153, 200, 0.4);
+            position: relative;
+        }
+
+        .envelope {
+            background-color: #ffccdd;
+            border: 2px solid #ff99c8;
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 20px;
+            font-weight: bold;
+            font-size: 1.2em;
+            color: #b00050;
+        }
+
+        .letter {
+            background-color: #fff;
+            border: 2px dashed #ff99c8;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: left;
+            font-size: 1.1em;
+            line-height: 1.5em;
+            color: #555;
+        }
+
+        .letter::before {
+            content: "Para: Catelynn Dianey ❤️";
+            display: block;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #ff5a8c;
+            font-size: 1.3em;
+        }
+
+        .images {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .images img {
+            width: 100px;
+            height: auto;
+        }
+
+        @media (max-width: 600px) {
+            .images {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="envelope">
+        De: Abraham Cisneros <br>
+        Para: Catelynn Dianey
+    </div>
+
+    <div class="letter">
+        No puedo imaginarme sin ti, sin hablar contigo siento que me muero si no hablo contigo. Te extraño, te amo mucho, me gustas, enserio...
+    </div>
+
+    <div class="images">
+        <img src="https://cdn.pixabay.com/photo/2017/02/01/22/02/teddy-bear-2032204_1280.png" alt="Osito LolyMon">
+        <img src="https://cdn.pixabay.com/photo/2016/11/30/15/41/tulips-1878102_1280.png" alt="Tulipanes rosas">
+    </div>
+</div>
+
+</body>
+</html>
